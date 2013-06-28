@@ -23,13 +23,16 @@ Needed environment variables for build:
   running integration test in the cloud
 
 Build the project and run unit tests:
-mvn clean package
+
+    mvn clean package
 
 Run integration tests on local runtime:
-mvn clean verify -P local-integration-tests
+
+    mvn clean verify -P local-integration-tests
 
 Run integration test in cloud:
-mvn verify -P cloud-integration-tests
+
+    mvn verify -P cloud-integration-tests
 
 # Importing project to Eclipse
 
